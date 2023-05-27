@@ -11,6 +11,7 @@ Bu proje, .NET Core geliştirme becerilerinizi geliştirmenize yardımcı olacak
 - FluentValidation
 - AutoMapper
 - AspNetCoreRateLimit
+- Smidge
 
 ### Solid Prensipleri
 - SOLID Nedir?
@@ -141,3 +142,21 @@ AspNetCoreRateLimit'in kullanımı ve özellikleri şunlardır:
 - Gerçek IP Adresi Takibi: Kütüphane, gerçek IP adresini belirten başlık bilgisini takip eder. Bu sayede proxy veya yük dengeleyici gibi ara katmanlardan gelen isteklerde doğru IP adresini tanımlayabilir ve sınırlamaları uygulayabilirsiniz.
 
 AspNetCoreRateLimit, API'lere gelen istekleri sınırlayarak performansı ve güvenliği artırmak için etkili bir çözümdür. Daha fazla bilgi ve kullanım örnekleri için [AspNetCoreRateLimit](https://github.com/stefanprodan/AspNetCoreRateLimit)  dökümantasyonunu inceleyebilirsiniz.
+
+### Smidge
+Smidge paketi, web geliştirme projelerinde kullanılan bir JavaScript paketidir. İşlevi, web sayfalarının performansını artırmak için dosya boyutlarını küçültmek ve kaynakları optimize etmektir.
+
+Smidge, web sayfalarında kullanılan CSS ve JavaScript dosyalarını sıkıştırır, birleştirir ve önbelleğe alır. Bu sayede, kullanıcıların web sayfalarını daha hızlı yüklemesi sağlanır. Ayrıca, Smidge, web sayfalarında kullanılan kaynakları gerektiğinde yalnızca yükler, böylece gereksiz yüklemeleri en aza indirir ve veri kullanımını azaltır.
+
+Smidge'in sağladığı bazı özellikler şunlardır:
+
+- Dosya sıkıştırma: CSS ve JavaScript dosyalarını sıkıştırarak dosya boyutlarını küçültür. Bu, sayfa yüklemelerinin daha hızlı olmasını sağlar.
+
+- Dosya birleştirme: Birden fazla CSS veya JavaScript dosyasını tek bir dosya içinde birleştirir. Bu da sayfa yüklemelerini optimize eder.
+
+- Önbellekleme: Smidge, kaynakları önbelleğe alır ve gerektiğinde bu önbelleği kullanır. Bu, sayfa yüklemelerini daha hızlı hale getirir ve sunucu yükünü azaltır.
+
+- Modüler yapı: Smidge, projenin ihtiyaçlarına göre özelleştirilebilir ve modüler bir yapı sunar. Bu sayede sadece gereken özellikler kullanılabilir ve gereksiz ağırlıklardan kaçınılabilir.
+
+Smidge, ASP.NET Core tabanlı web uygulamalarında yaygın olarak kullanılan bir pakettir. Ancak, web geliştirme projelerinde kullanılan diğer teknolojilerde de benzer işlevleri yerine getiren alternatif paketler bulunabilir. Daha fazla bilgi ve kullanım örnekleri için [Smidge](https://github.com/Shazwazza/Smidge)  dökümantasyonunu inceleyebilirsiniz.
+
