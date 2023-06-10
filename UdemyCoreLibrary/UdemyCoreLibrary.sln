@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmidgeApp.Web", "SmidgeApp.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hangfire.Web", "Hangfire.Web\Hangfire.Web.csproj", "{F030B2E7-104A-4463-A244-7677189732C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorHandling.Web", "ErrorHandling.Web\ErrorHandling.Web.csproj", "{CFCAE0D9-7BD3-4D25-ACD0-31BB831CF4E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ErrorHandling.Web", "ErrorHandling.Web\ErrorHandling.Web.csproj", "{CFCAE0D9-7BD3-4D25-ACD0-31BB831CF4E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging.Web", "Logging.Web\Logging.Web.csproj", "{43CB0B3A-11DF-4372-8062-F7420B6746FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLog.Web", "NLog.Web\NLog.Web.csproj", "{0C722F58-42C0-433F-937B-148C27AB71FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{CFCAE0D9-7BD3-4D25-ACD0-31BB831CF4E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFCAE0D9-7BD3-4D25-ACD0-31BB831CF4E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFCAE0D9-7BD3-4D25-ACD0-31BB831CF4E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43CB0B3A-11DF-4372-8062-F7420B6746FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43CB0B3A-11DF-4372-8062-F7420B6746FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43CB0B3A-11DF-4372-8062-F7420B6746FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43CB0B3A-11DF-4372-8062-F7420B6746FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C722F58-42C0-433F-937B-148C27AB71FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C722F58-42C0-433F-937B-148C27AB71FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C722F58-42C0-433F-937B-148C27AB71FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C722F58-42C0-433F-937B-148C27AB71FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
